@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://natural-cocos-backend.onrender.com/api';
 
 export default function App() {
   const [cart, setCart] = useState([]);
