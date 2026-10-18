@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import coconutImg from './images/coconut-oil.jpeg';
+import cocos500ml from './assets/natural-cocos-500ml.png';
+
+
 const API_URL = 'https://natural-cocos-backend.onrender.com/api';
 
 export default function App() {
@@ -72,7 +75,7 @@ export default function App() {
       originalPrice: 1400,
       rating: 4.9,
       reviews: 84,
-      image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800',
+     image: '/images/natural-cocos-500ml.png',
       description: '100% Raw, Cold-Pressed Organic Virgin Coconut Oil extracted from fresh kernel. Perfect for daily cooking, hair treatment, and skincare.',
       badge: 'Best Seller'
     },
