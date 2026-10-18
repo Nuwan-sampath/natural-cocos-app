@@ -88,7 +88,7 @@ export default function App() {
       originalPrice: 2600,
       rating: 5.0,
       reviews: 112,
-      image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&q=80&w=800',
+      image: '/images/1000.png',
       description: 'Family value jar of unrefined, high-purity organic extra virgin coconut oil. Rich in Lauric acid and natural antioxidants.',
       badge: 'Value Pack'
     },
