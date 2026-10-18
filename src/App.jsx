@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import coconutImg from './images/coconut-oil.jpeg';
-import cocos500ml from './assets/natural-cocos-500ml.png';
+
 
 
 const API_URL = 'https://natural-cocos-backend.onrender.com/api';
