@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import coconutImg from './images/coconut-oil.jpeg';
 const API_URL = 'https://natural-cocos-backend.onrender.com/api';
 
 export default function App() {
@@ -474,7 +474,7 @@ export default function App() {
               <div className="relative">
                 <div className="relative mx-auto max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20 group">
                   <img
-                    src="poster-1.jpeg"
+                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1000"
                     alt="Natural Cocos Coconut Oil Jar"
                     className="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
                   />
