@@ -474,9 +474,9 @@ export default function App() {
               <div className="relative">
                 <div className="relative mx-auto max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20 group">
                   <img
-                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1000"
+                    src={coconutImg}
                     alt="Natural Cocos Coconut Oil Jar"
-                    className="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
+                //    className="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 via-transparent to-transparent flex items-end p-6">
                     <div>
